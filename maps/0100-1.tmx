@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="120" height="120" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="Woodland_ground" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+  <image source="../../landoffire/graphics/tiles/Woodland_ground.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="257" name="collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+  <image source="../../landoffire/graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="259" name="Woodland_village" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_village.png" width="512" height="512"/>
+  <image source="../../landoffire/graphics/tiles/Woodland_village.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="515" name="Woodland_x3" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/Woodland_x3.png" width="512" height="192"/>
+  <image source="../../landoffire/graphics/tiles/Woodland_x3.png" width="512" height="192"/>
  </tileset>
  <tileset firstgid="547" name="Woodland_x5" tilewidth="32" tileheight="160">
-  <image source="../graphics/tiles/Woodland_x5.png" width="512" height="160"/>
+  <image source="../../landoffire/graphics/tiles/Woodland_x5.png" width="512" height="160"/>
  </tileset>
  <layer name="Ground" width="120" height="120">
   <data encoding="base64" compression="zlib">
@@ -144,6 +144,27 @@
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="31"/>
+   </properties>
+  </object>
+  <object name="Crabs" type="spawn" x="2457" y="951" width="574" height="309">
+   <properties>
+    <property name="eA_death" value="250"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="104"/>
+   </properties>
+  </object>
+  <object name="To Outside" type="warp" x="1504" y="2752" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="0100-2"/>
+    <property name="dest_x" value="928"/>
+    <property name="dest_y" value="1088"/>
+   </properties>
+  </object>
+  <object name="To Inside" type="warp" x="2656" y="2784" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="0100-2"/>
+    <property name="dest_x" value="2816"/>
+    <property name="dest_y" value="1088"/>
    </properties>
   </object>
  </objectgroup>

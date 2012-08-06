@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="200" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Woodland_ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="259" name="forest-so" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/forest-so.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Ground" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3b4VEUURSE0TUaM5AQNAOMQM0/AqEoqkC4I7uu2/1mzo8TANJf3TdFeX86ne4BAAAAAAAAAAAAAAAAAAAAAACAQ7l78HNxXwr+HVnD3em8bf168GlxP/7yM+rnOP62/z3sXT/Yf4+X/Wglb6sB++9pxb3J9KCBtb3XkGYub0IP+7d1d7TjRjA7+r15bEMPnOMo90YbXNtjO+ldX6ML7yj+l/S+dUGz9M4vbUMX3EJ669qgWXrv2qBZevPaoFl69x/1veDfiuNJ797toFl6+9qgWXr/2qBZuoEtvjlISzfgdtAs3YE2aJZuwbuKZukW3A6apXtwO2iW7sHtoFm6CW3QLN2FNmiWbuORbw5apdtwO2imDZh5V8FMHzDztoKZ2wEztwNmbgfM9AEzbyuYuR0w0wfM9AEzfcBMHzDTB8z0ATN9wEwfMNMHzPQBM33ATB8w0wfM9AGzW/fx+cG3gp8bPuLWfbghrEQfMNMHzBJ9+AZhFYk+3BBWkerDDWEFqT7cEFaQ7MMNoV2yDzeEduk+3BCapftwQ2iWbkMfNEu34Y1Fs3QbbgjN0l24ITRLd6ERmqWb8M6iWboHN4Rm6R7cEJqlW3BDaJZuwQ2hWboDN4Rm6Q40QrN0A95ZNEvv3w2hWXr/bgjN0tt3Q2iW3r5GaJbevUZolt78uXyLcEvpvbshNEvvXSM0S2/9Ut5Z3EJ6524IzdI7d0Nolt64G0Kz9MbdEJql9+2G0Cy9bzeEZultuyE0S2/7mo18PemE60rvWic0S+9ZJzRL7/gWnWiES6X3qxGapberEZqld3tL/k7CudKbvfUN8c3OOdKbTXWiET4ivVWN0Cy903Qj3ltsSW+0gU6YpLfZxJuLP6U32cYt4aX0Hlu5JehDI+hDI+hDI+hDI+ijk0aOJ7251WjkWNJ7W5FGjiO9tVX5O+IxpHe2Ov/nat/S+9oDN2S/0tvaA98j+5Xe1l5oZJ/Su9qT52/2Z3pZX3pTe/ayF62sKb2ho/D+WlN6N0fibybrSW/miPzNZB3prRyRt9Y60ls5Ko2sIb2TI9NIv/RGjk4j3dL7wPd6s/Q2cEOapbfBEzekU3oXPHFDOqV3gUaapTfBa95ZXdJ74DU3pEt6D7zlhvRIbwF9NEtvgbe8sXqkt8D73JAO6R3wPjekQ3oHzNyQvPQG0Eez9AaYeWPlpTfANjdEH+ijVfr3zzZvLH2gkVbp3z0f452lD2ZuiD7Y5obog5kbog+2uSH6YOaG6AONtEj/rrmMd5Y+mLkh+mCbG6IPZm6IPtCIPtBIp/TvluvwLaIPZm6IPtjmhuiDmRuiD7a5Ifpg5obog21uiD6YuSH6YJsbog/0oQ8u4Y2lD7a5If/uNwPcHpQAcQIA
+  </data>
+ </layer>
+ <layer name="Fringe" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TsQ2AMBAEwXdGCe6/OEMFNiGfg+TQIGakzS+5CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Ataidizo6xeAu/T8xcjO/0DbrZJ8Gd1EgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8OwC+ekjJABxAgA=
+  </data>
+ </layer>
+ <layer name="Over" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BgQAAAADDoPlTX+EAVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAYtCPEnAHECAA==
+  </data>
+ </layer>
+ <layer name="Collison" width="200" height="200" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TQY4QMRAEwWX//2jEAQQIr7hleSZCqg/YnZ/fPj4+zczMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM7NduV7+f3TX+VP+Huf+b1f9p7v8W9d+bBm5X384Tx7PV93Xj4If6DlcG/6u+VW1wq/qWtcG6+qZ1wbL6tnXBsvrGtcGy+s61wbL61rXBsvretcGy+ub1wbL65rXBsvrutcGy+va1wbL6/vXBsvr+tcGyugFtsKzuQB8sqzvQBsvqFvTBsroFbbCs7kEbLKub0AbL6i70wbK6C22wTBtwpg840wecaQPO9AFn2oAzfcCZPuBMG3CmDzjTB5zpA870AWf6gDN9wJk+4EwfcKYPONMHnOkDzvQBZ/qAM33AWdGHRriFPuBMH3CmDzir+tAIN9AHnJV9aIR1+oCzug+NsKxuQx8sq9vQCMvqLvTBsroLfbCs7kIjLKub0AfL6iY0wrK6B42wrG5BHyyrW9AIy+oO9MGyugONsKxuQB8sqxvQCMvq+9cIy+rb1wfL6tvXCMvqu9cHy+q71wjL6pvXCMvqe9cIy+pb1wfL6lvXCMvqO9cIy+ob1wfL6hvXCMvq+9YHy+r71gjL6tvWB8vq29YIy+q71gfL6rvWCMvqm9YJy+pb1gnL6hvWCcvq29UIy+q71QjL6pvVCMvqe9UHy+p71QnL6jvVCMvqG60HX6nvc2XwL/Vdrg1+V9/j4uCn+haXB/UNro93q+/vhvFe9e3dMt6pvrulwd/qm7xtvEt9bzeO96hv7dbxDvWd3Tyer76xJ4znqm/rCeO56tt6ynim+q6eNJ6nvqmnjWep7+np4271/bxp3Ke+mbeNu9T38tZxh/pO3jruUN/Jm8e++kbePrbV92H1BfCV+jZMI8vquzB9LKvvwjSyrL4J08ey+iZMI8vqezCNLKtvwfSxrL4F08iy+g5MH8vqOzB9LKvvwDSyrL4B08ey+gZMI8vq/zd9LKv/3/SxrP5/08iy+u9NH8vqvzd9LKv/3jSyrP5308iy+s9NH8vqPzeNLKv/2/SxrP5v08iy+q9NH8vqvzaNLKv/2TSyrP5j08ey+o9NI8vq/zV9LKv/1zSyrP5b08iy+l9NI8vqPzV9LKv/1DSyrP5P08ey+j9NI8vqvzR9LKv/0jSyrP5H08ey+h9NI8vqPzR9LKv/0PSxrP5D08iy+v9MH8u+A00papkAcQIA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="200" height="200"/>
+</map>

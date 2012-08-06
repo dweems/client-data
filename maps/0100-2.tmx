@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="125" height="70" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="woodland_indoor" tilewidth="32" tileheight="32">
-  <image source="../../landoffire/graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="257" name="collision" tilewidth="32" tileheight="32">
-  <image source="../../landoffire/graphics/tiles/collision.png" width="64" height="32"/>
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="259" name="woodland_indoor_x2" tilewidth="32" tileheight="64">
-  <image source="../../landoffire/graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
  </tileset>
  <layer name="Ground" width="125" height="70">
-  <data encoding="base64" compression="zlib">
-   eJzt0dEJwjAUhtGIE4gTWCeoM6gTqBOo+4/gfWgffJFLKUSSIxzy0oDfn7GUMgIAAAAAAAAAAABfNmE7nUvN92u3aM3Zhf10LjXfr92iNeewototWnOGcJzOpeb7tVu05ndYS+0WrXboudUO/bXaIdd6DpdwbaDVm+dab+EeHg20evNc6zO8wruBVm/eX6sd+mu1Q3+tduiv9ZfMb0h+V7tF63pOf/AftAIAAAAAAAAAAAAAAAAAAADQug9Qel9K
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3R0QnCMBSG0YgTiBNYJ6gzqBOoE6j7j+B9aB98kUspRJIjHPLSgN+fsZQyAgAAAAAAAAAAAF82YTudS833a7dozdmF/XQuNd+v3aI157Ci2i1ac4ZwnM6l5vu1W7Tmd1hL7Ratdui51Q79tdoh13oOl3BtoNWb51pv4R4eDbR681zrM7zCu4FWb95fqx36a7VDf6126K/1l8xvSH5Xu0Xrek5/8B+0AgAAAAAAAAAAAAAAAAAAANC6D15Qxty4iAAA
   </data>
  </layer>
  <layer name="Fringe" width="125" height="70">
-  <data encoding="base64" compression="zlib">
-   eJzt1kkvLFEYgOESYtpgwx/CXoK9BHs/wU+7sTVssDLEuDLEuLr38klKSDndTaO7D8+TvOmvq6uSU6lUdRUFAAAAAAAAAAAAwIu+qD+xfTQaK+eBst5WLQpaYLPyvburKHq63u4zVZaj6jn+dttftE8nerrWW0W+6/8ux9FJg07btrrPeT63j65/NVpLzLmaKz8Hy+f3bXTXoPtXx/dXnvud7Pnc7hvtWLET7SbmXC0lto3UuY7DGV3jqj/RQXQYHUUr7zzuLDpPzLlabvD7eDQRTbZgLa1wFV1HNx845m/0LzHnbqDG/TsdzUSzNY4bzPi+J20+WogW272QNlqPNhLzT9JX594d+oX39V60n5hz1+z7d63/hE7U7DvcRXSZmMlDM+9w/6OHxAwAAAAAAAAAAAAAAAAAAAAAAFDPI08iTzA=
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WSS8sURiA4RJi2mDDH8Jegr0Eez/BT7uxNWywMsS4MsS4uvfySUpIOd1No7sPz5O86a+rq5JTqVR1FQUAAAAAAAAAAADAi76oP7F9NBor54Gy3lYtClpgs/K9u6soerre7jNVlqPqOf5221+0Tyd6utZbRb7r/y7H0UmDTtu2us95PrePrn81WkvMuZorPwfL5/dtdNeg+1fH91ee+53s+dzuG+1YsRPtJuZcLSW2jdS5jsMZXeOqP9FBdBgdRSvvPO4sOk/MuVpu8Pt4NBFNtmAtrXAVXUc3Hzjmb/QvMeduoMb9Ox3NRLM1jhvM+L4nbT5aiBbbvZA2Wo82EvNP0lfn3h36hff1XrSfmHPX7Pt3rf+ETtTsO9xFdJmYyUMz73D/o4fEDAAAAAAAAAAAAAAAAAAAAAAAUM8jUcZePriIAAA=
   </data>
  </layer>
  <layer name="Over" width="125" height="70">
-  <data encoding="base64" compression="zlib">
-   eJzt1ssJw0AMBFC35P6rSNxQDEuIT8qHtVGY90A3Izyjyy4LAAAAAAAAAAAAcLQ23zdTUtZKUg9JWStJPSRlrST1kJS1ktRDUtZKUg/Pf7vtc99nm7Tv3yTevOu+qyT1kJS1ckYPXbtw8yGph6SslaQevOGGxJt33XeVlB7OeGd0zfpOSg9u/rJ+ON9+29XMrAy6AAAAAAAAAAAAAAAAAAAAAIDfPQA7Qxev
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WywnDQAwEULfk/qtI3FAMS4hPyoe1UZj3QDcjPKPLLgsAAAAAAAAAAABwtDbfN1NS1kpSD0lZK0k9JGWtJPWQlLWS1ENS1kpSD89/u+1z32ebtO/fJN68676rJPWQlLVyRg9du3DzIamHpKyVpB684YbEm3fdd5WUHs54Z3TN+k5KD27+sn44337b1cysDLoAAAAAAAAAAAAAAAAAAAAAgN89ANUqOgq4iAAA
   </data>
  </layer>
  <layer name="Collision" width="125" height="70" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJzt0UEOgzAMBEDK/x/NFUUFmuDISTOW5lIK8q73z7btAAAAAAAAAAAAALCYcsrfvv3v6v3sLG9y1072/j1vfpV39h7eTvb+0Tdv7Sw7S6+bn9/J3jsyf22mcx+z3DxysrNEd3HXz9OzkZU71t53hoytN2+d7By9bj5j1l/u3dpB+Y2RRU52Fj30zXp+PztDrx7u+nl6NrLIyc4S0UNrJ+U3RlbuWHvfGTLW3DxisrP0uvmMWd18vax6WC9rRFfZO8gKAAAAAAAAAAAAAAAAAAAAwL87APfSYaU=
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RQQ6DMAwEQMr/H80VRQWa4MhJM5bmUgryrvfPtu0AAAAAAAAAAAAAsJhyyt++/e/q/ewsb3LXTvb+PW9+lXf2Ht5O9v7RN2/tLDtLr5uf38neOzJ/baZzH7PcPHKys0R3cdfP07ORlTvW3neGjK03b53sHL1uPmPWX+7d2kH5jZFFTnYWPfTNen4/O0OvHu76eXo2ssjJzhLRQ2sn5TdGVu5Ye98ZMtbcPGKys/S6+YxZ3Xy9rHpYL2tEV9k7yAoAAAAAAAAAAAAAAAAAAADAvzsAhoLnlbiIAAA=
   </data>
  </layer>
  <objectgroup name="Objects" width="125" height="70" visible="0">
